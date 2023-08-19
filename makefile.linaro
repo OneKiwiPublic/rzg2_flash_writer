@@ -35,6 +35,15 @@ DEVICE   = RZG2L
 DDR_TYPE = DDR4
 DDR_SIZE = 2GB_1PCS
 SWIZZLE  = T1BC
+else ifeq ("$(BOARD)", "RENESAS_RZG2L_EVK_PMIC")
+#--------------------------------------
+# RZ/G2L Smarc PMIC Edition board
+#--------------------------------------
+FILENAME_ADD = _RENESAS_RZG2L_EVK_PMIC
+DEVICE   = RZG2L
+DDR_TYPE = DDR4
+DDR_SIZE = 2GB_1PCS
+SWIZZLE  = T1BC
 else ifeq ("$(BOARD)", "RZG2L_15MMSQ_DEV")
 #--------------------------------------
 # RZ/G2L 15MMSQ Dev board
